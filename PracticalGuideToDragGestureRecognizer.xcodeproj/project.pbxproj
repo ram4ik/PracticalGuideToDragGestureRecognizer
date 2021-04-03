@@ -11,6 +11,14 @@
 		95CE07182618EC33009B85CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE07172618EC33009B85CE /* ContentView.swift */; };
 		95CE071A2618EC33009B85CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CE07192618EC33009B85CE /* Assets.xcassets */; };
 		95CE071D2618EC33009B85CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CE071C2618EC33009B85CE /* Preview Assets.xcassets */; };
+		95CE07272618EC81009B85CE /* example1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE07262618EC81009B85CE /* example1.swift */; };
+		95CE072A2618EC8D009B85CE /* example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE07292618EC8D009B85CE /* example2.swift */; };
+		95CE072D2618EC96009B85CE /* example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE072C2618EC96009B85CE /* example3.swift */; };
+		95CE07302618EC9E009B85CE /* example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE072F2618EC9E009B85CE /* example4.swift */; };
+		95CE07332618ECA6009B85CE /* example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE07322618ECA6009B85CE /* example5.swift */; };
+		95CE07362618ECAE009B85CE /* example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE07352618ECAE009B85CE /* example6.swift */; };
+		95CE07392618ECB4009B85CE /* example7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE07382618ECB4009B85CE /* example7.swift */; };
+		95CE073C2618ECBB009B85CE /* example8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CE073B2618ECBB009B85CE /* example8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		95CE07192618EC33009B85CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95CE071C2618EC33009B85CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95CE071E2618EC33009B85CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CE07262618EC81009B85CE /* example1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example1.swift; sourceTree = "<group>"; };
+		95CE07292618EC8D009B85CE /* example2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example2.swift; sourceTree = "<group>"; };
+		95CE072C2618EC96009B85CE /* example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example3.swift; sourceTree = "<group>"; };
+		95CE072F2618EC9E009B85CE /* example4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example4.swift; sourceTree = "<group>"; };
+		95CE07322618ECA6009B85CE /* example5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example5.swift; sourceTree = "<group>"; };
+		95CE07352618ECAE009B85CE /* example6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example6.swift; sourceTree = "<group>"; };
+		95CE07382618ECB4009B85CE /* example7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example7.swift; sourceTree = "<group>"; };
+		95CE073B2618ECBB009B85CE /* example8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 		95CE07142618EC33009B85CE /* PracticalGuideToDragGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				95CE07252618EC6C009B85CE /* examples */,
 				95CE07152618EC33009B85CE /* PracticalGuideToDragGestureRecognizerApp.swift */,
 				95CE07172618EC33009B85CE /* ContentView.swift */,
 				95CE07192618EC33009B85CE /* Assets.xcassets */,
@@ -67,6 +84,21 @@
 				95CE071C2618EC33009B85CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95CE07252618EC6C009B85CE /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				95CE07262618EC81009B85CE /* example1.swift */,
+				95CE07292618EC8D009B85CE /* example2.swift */,
+				95CE072C2618EC96009B85CE /* example3.swift */,
+				95CE072F2618EC9E009B85CE /* example4.swift */,
+				95CE07322618ECA6009B85CE /* example5.swift */,
+				95CE07352618ECAE009B85CE /* example6.swift */,
+				95CE07382618ECB4009B85CE /* example7.swift */,
+				95CE073B2618ECBB009B85CE /* example8.swift */,
+			);
+			path = examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CE07272618EC81009B85CE /* example1.swift in Sources */,
 				95CE07182618EC33009B85CE /* ContentView.swift in Sources */,
 				95CE07162618EC33009B85CE /* PracticalGuideToDragGestureRecognizerApp.swift in Sources */,
+				95CE073C2618ECBB009B85CE /* example8.swift in Sources */,
+				95CE07362618ECAE009B85CE /* example6.swift in Sources */,
+				95CE07332618ECA6009B85CE /* example5.swift in Sources */,
+				95CE07302618EC9E009B85CE /* example4.swift in Sources */,
+				95CE07392618ECB4009B85CE /* example7.swift in Sources */,
+				95CE072D2618EC96009B85CE /* example3.swift in Sources */,
+				95CE072A2618EC8D009B85CE /* example2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
