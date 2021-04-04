@@ -110,7 +110,7 @@ struct DTRangeSlider: View {
                     .multilineTextAlignment(.center)
                     .frame(width: 30, height: 30)
                     .foregroundColor(globeMinMaxValuesColor)
-            }
+            }.padding()
         }
     }
 }
