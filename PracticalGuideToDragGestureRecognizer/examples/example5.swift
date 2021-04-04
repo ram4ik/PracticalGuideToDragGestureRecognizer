@@ -9,7 +9,29 @@ import SwiftUI
 
 struct example5: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Example5()
+    }
+}
+
+struct Example5: View {
+    @GestureState private var offset = CGSize.zero
+    
+    var body: some View {
+        ZStack {
+            Circle()
+                .stroke(Color.orange, lineWidth: 1)
+                .frame(width: 100, height: 100, alignment: .center)
+            
+            Image(systemName: "arrow.right.circle")
+                .font(.largeTitle)
+                .foregroundColor(.orange)
+        }.offset(offset)
+        .gesture(
+            DragGesture(minimumDistance: 100)
+                .updating($offset, body: { (value, state, _) in
+                    state = value.translation
+                })
+        ).animation(.spring())
     }
 }
 
